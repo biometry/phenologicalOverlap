@@ -1,0 +1,23 @@
+Package: phenologicalOverlap
+Title: Phenological overlap between two event time series
+Version: 0.1
+Authors@R: c(person("Carsten", "Dormann", email = "carsten.dormann@biom.uni-freiburg.de", role = c("aut", "cre")), person("Florian", "Berger", email="florian_berger@ymail.com", role="aut"))
+Author: Florian Berger [aut], Carsten Dormann [aut, cre]
+Maintainer: Carsten Dormann <carsten.dormann@biom.uni-freiburg.de>
+Description: Computes the overlap of time series describing the presence
+    or abundance of two species, for example to analyse how weather affect the
+    overlap between a plant and its pollinator. Data are (optionally) interpolated
+    between observations, PDFs are fitted by kernel density or to a pre-specificied
+    distribution. Several measures of overlap are available.
+Depends:
+    R (>= 3.3.0)
+License: GPL
+Encoding: UTF-8
+LazyData: true
+ByteCompile: true
+URL: https://github.com/biometry/phenologicalOverlap
+RoxygenNote: 5.0.1
+Suggests:
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
