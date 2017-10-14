@@ -16,8 +16,7 @@ Encoding: UTF-8
 LazyData: true
 ByteCompile: true
 URL: https://github.com/biometry/phenologicalOverlap
-RoxygenNote: 5.0.1
+RoxygenNote: 6.0.1
 Suggests:
-    knitr,
-    rmarkdown
-VignetteBuilder: knitr
+    knitr, rmarkdown, R.rsp
+VignetteBuilder: R.rsp, knitr

@@ -15,6 +15,10 @@ devtools:::use_vignette("phenologicalOverlap-vignette")
 library(phenologicalOverlap)
 
 
+# issues
+* the .ltx-vignette does not build
+* the vignettes are not shown in the package-overview of RStudio (or elsewhere)
+
 
 # wishlist
 * real data to play with in the vignette

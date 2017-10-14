@@ -27,10 +27,9 @@ hist(blubb)
 hist(rangeit(blubb))
 par(mfrow=c(1,1))
 }
-\author{
-Carsten F. Dormann <carsten.dormann@biom.uni-freiburg.de>
-}
 \seealso{
 \code{scale}
 }
-
+\author{
+Carsten F. Dormann <carsten.dormann@biom.uni-freiburg.de>
+}

@@ -1,0 +1,46 @@
+---
+title: 'phenologyOverlap: computing overlap of phenology time series'
+author: "Florian Berger"
+date: '`r Sys.Date()`'
+output:
+  pdf_document:
+    dev: pdf
+    fig_height: 7
+    fig_width: 7
+    highlight: pygments
+    toc: yes
+  html_document:
+    fig_height: 7
+    fig_width: 7
+    highlight: pygments
+    theme: readable
+    toc: yes
+  md_document:
+    fig_height: 7
+    fig_width: 7
+    preserve_yaml: no
+    toc: yes
+geometry: margin=1in
+fontsize: 11pt
+vignette: >
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteIndexEntry{Topology analysis}
+  %\usepackage[utf8]{inputenc}
+---
+
+This vignette covers ....
+
+## Example data
+
+A small set of annotated example trees are included in the `phenologyOverlap` package.
+
+
+```{r, eval=TRUE, warning=FALSE, message=FALSE}
+# Load required packages
+library(MASS)
+
+# Load example data
+data(mcycle)
+
+hist(rnorm(100))
+```
