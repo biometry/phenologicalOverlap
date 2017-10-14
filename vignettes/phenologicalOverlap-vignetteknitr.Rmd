@@ -1,14 +1,15 @@
 ---
 title: 'phenologyOverlap: computing overlap of phenology time series'
-author: "Florian Berger"
+author: "Florian Berger & Carsten F. Dormann"
 date: '`r Sys.Date()`'
 output:
   pdf_document:
     dev: pdf
-    fig_height: 7
-    fig_width: 7
+    fig_height: 5
+    fig_width: 5
     highlight: pygments
     toc: yes
+    citation_package: natbib
   html_document:
     fig_height: 7
     fig_width: 7
@@ -24,9 +25,13 @@ geometry: margin=1in
 fontsize: 11pt
 vignette: >
   %\VignetteEngine{knitr::rmarkdown}
-  %\VignetteIndexEntry{Topology analysis}
+  %\VignetteIndexEntry{Phenological overlap analysis}
   %\usepackage[utf8]{inputenc}
+  %\usepackage{libertine}
 ---
+
+Note that this is a markdown document with some LaTeX in it. For a proper LaTeX-document, Sweave/knitr is the way to go; see https://github.com/yihui/knitr/blob/master/inst/examples/knitr-minimal.Rnw
+
 
 This vignette covers ....
 
@@ -44,3 +49,6 @@ data(mcycle)
 
 hist(rnorm(100))
 ```
+
+Some equations are always useful:
+$$\hat{o} = f(\vec{x}_1, \vec{x}_2)$$
