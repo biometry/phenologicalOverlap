@@ -19,4 +19,4 @@ URL: https://github.com/biometry/phenologicalOverlap
 RoxygenNote: 6.0.1
 Suggests:
     knitr, rmarkdown, R.rsp
-VignetteBuilder: R.rsp, knitr
+VignetteBuilder: knitr

@@ -15,5 +15,5 @@
 \author{Carsten F. Dormann}
 \title{Example for a \LaTeX-vignette}
 \begin{document}
-	A test that does not work: no PDF is generated. I guess ones hould not mix different vignette styles (markdown and LaTeX).
+	A test that does not work: no PDF -vignette is generated. I guess ones hould not mix different vignette styles (markdown and LaTeX).
 \end{document}
