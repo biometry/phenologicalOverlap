@@ -13,11 +13,14 @@ vignette: >
 # Introduction
 
 The example we had in mind when producing this package was that of a pollinator on a flowering plant: the researcher went out repeatedly, at irregular intervals, and records the presence or abundance of the pollinator species or the flowers of its host. Thus, the typical data are the dates and abundances of two species, for example like this:
-```{r}
+```{r make Data, eval=T, echo=T}
 A <- cbind.data.frame("doy"=c(41, 42, 45, 55, 56, 57, 62), "abundA"=c(0, 1, 1, 1, 0, 1, 1))
 B <- cbind.data.frame("doy"=c(30, 40, 45, 50, 51, 52, 53), "abundB"=c(2, 14, 5, 19, 4, 1, 1))
 ```
 where `doy` refers to day-of-year, starting with the first of January as `1`.
+```{r}
+hist(rnorm(100), col="green")
+```
 
 
 # Set up the data for analysis

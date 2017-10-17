@@ -9,7 +9,7 @@ rangeit(x, na.rm = TRUE)
 \arguments{
 \item{x}{Data vector to be ranged.}
 
-\item{na.rm}{Logical; should NA-values be ignored when computing min and max? Defaults to TRUE:}
+\item{na.rm}{Logical; should NA-values be ignored when computing min and max? Defaults to TRUE.}
 }
 \value{
 a vector of same length as x
@@ -26,6 +26,7 @@ par(mfrow=c(1,2))
 hist(blubb)
 hist(rangeit(blubb))
 par(mfrow=c(1,1))
+
 }
 \seealso{
 \code{scale}
