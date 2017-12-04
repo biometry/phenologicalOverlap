@@ -132,6 +132,9 @@ estdist <- function(data, StartAndEnd = NULL, returnonlyfunction = TRUE, forcedi
       parmnames[[1]]  <- c('mean', 'sd')
       func       <- c(function(x) dtruncnorm(x, mean = mean, sd = sd, a = min(StartAndEnd), b = max(StartAndEnd)))
     }
+    if(norm[1] == 'F' & forcedistrtype == 'normal'){
+      stop('PDF could not be estimated, maybe try considering the beta distribution.')
+    }
   }
   
   # beta distribution

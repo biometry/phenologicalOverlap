@@ -8,6 +8,8 @@ kernelest(data, kernel = "gaussian", bandwidth = NULL,
   numberofdatapoints = 1024, CheckData = TRUE)
 }
 \arguments{
+\item{data}{data-frame; This is the data the distributions shall be fitted for. It must have two columns, one wih date-objects one with numeric values.}
+
 \item{kernel}{string; the kerel which shall be used. Can be "gaussian", "epanechnikov", "rectangular", "triangular" or "biweight".}
 
 \item{bandwidth}{numeric; the bandwidth for the kernel density estimation. If is null it will be determined by the unbiased cross validation using the h.ucv() function from the 'kedd' package.}

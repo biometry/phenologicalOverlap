@@ -3,7 +3,8 @@
 #' This function will perform a Kernel Density Estimation
 #'
 #' This function performs a simple Kernel Density estimation using the density() function. By default the bandwidth will be selected using the h.ucv() function from the 'kedd' package. 
-#'
+#' 
+#' @param data data-frame; This is the data the distributions shall be fitted for. It must have two columns, one wih date-objects one with numeric values.
 #' @param kernel string; the kerel which shall be used. Can be "gaussian", "epanechnikov", "rectangular", "triangular" or "biweight".
 #' @param bandwidth numeric; the bandwidth for the kernel density estimation. If is null it will be determined by the unbiased cross validation using the h.ucv() function from the 'kedd' package.
 #' @param numberofdatapoints numeric, whole number; determines, how much datapoints shall be produced by the density() function. As can be seen in the help of density() this shall be a power of two.  
